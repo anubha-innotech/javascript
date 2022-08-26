@@ -1,0 +1,71 @@
+/* @font-face {
+  font-family: digital-7;
+  src: url(fonts/digital-7.ttf);
+} */
+*{
+  /* border: 2px solid blue; */
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  font-family: digital-7;
+  text-align: center;
+  background-color: orange;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  min-width: 20%;
+  max-width: 100%;
+  margin: 100px auto;
+}
+#lapContainer{
+  margin: 0 0;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 35px;
+}
+#stopwatch {
+  font-size: 2.5em;
+  margin: 30px;
+}
+
+#miliSecId {
+  margin-left: 10px;
+  font-size: 22px;
+}
+.btns{
+  margin: 10px;
+}
+.btn {
+  font-size: 15px;
+  font-weight: 500;
+  background: transparent;
+  margin: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  border: solid 2px white;
+  padding: 16px 40px 16px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+button:disabled,
+button[disabled]{
+  display: none;
+  cursor:not-allowed;
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 60px;
+  margin: 200px 0 0;
+}
+#lapReadings{
+  font-size: 19px;
+  margin: 5px;
+}
